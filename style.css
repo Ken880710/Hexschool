@@ -1,0 +1,371 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*TOP*/
+.wrap {
+	margin: 0 auto;/*置中呈現*/
+	width: 1002px;
+}
+
+.top {
+	background: darkgray;
+	padding: 5px;
+	text-decoration: none;
+}
+.topbtn{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.wordblue {
+	color: blue;
+	padding-right: 10px;
+	border-right: 1px solid lightgray;
+}
+
+.wordlightblue {
+	color: lightblue;
+}
+
+.toppic {
+	padding-left: 10px;
+	padding-right: 5px;
+}
+/*Header*/
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.headerbtn{
+		display: flex;
+		justify-content: flex-end;
+}
+.header a {
+	color: #99ebd6;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.header a:hover {
+	border-bottom: 5px solid #99ebd6;
+}
+
+/*BANNER*/
+.banner {
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.bannerword {
+	background-color: #1f1e1c;
+	width: 500px;
+	height: 160px;
+	position: absolute;
+	left: 0;
+	top: 70px;
+}
+
+.bannerp {
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	left: 0;
+	top: 50px;
+}
+
+.bannerp2 {
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	left: 0;
+	top: 80px;
+}
+
+/*COURSE*/
+.courseitem {
+	width: 300px;
+	text-align: center;
+	border-bottom: 5px solid lightgray;
+	border-left: 5px solid lightgray;
+	border-right: 5px solid lightgray;
+	padding: 10px;
+}
+
+.course {
+	display: flex;
+	justify-content: space-around;
+	width: 1024px;
+	margin-bottom: 10px;
+}
+
+.course h2 {
+	font-size: 25px;
+	font-style: bold;
+	padding:10px;
+}
+
+.course p {
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-align: left;
+}
+.course h3, .courseul{
+	text-align: left;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+/*LIST*/
+.list {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.list h1 {
+	color: black;
+	font-size: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.price {
+	margin: auto;
+}
+
+.price th {
+	color: black;
+	font-size: 20px;
+	padding: 10px;
+	text-align: left;
+	padding-right: 40px;
+	border-top: 1px solid darkgray;
+	border-bottom: 1px solid darkgray;
+}
+
+.price td {
+	padding: 10px;
+	text-align: left;
+	border-top: 1px solid darkgray;
+	border-bottom: 1px solid darkgray;
+}
+
+.wordgreen{
+	color: green;
+}
+
+.h2type {
+	color: black;
+	font-size: 30px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+/*Messageboard*/
+.message {
+	background: -webkit-linear-gradient(#00644d, #009772);
+	margin-bottom: 30px;
+}
+
+.message h2 {
+	color: white;
+	font-size: 20px;
+	width: 220px;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 15px;
+}
+
+.message label {
+	color: white;
+	font-size: 20px;
+}
+
+.form1 {
+	display: flex;
+	justify-content: space-around;
+	text-align: left;
+	margin: auto;
+	padding: 30px;
+}
+
+.formright {
+	margin-left: 20px;
+	position: relative;
+}
+
+.texttype {
+	padding-bottom: 10px;
+}
+
+.textstyle {
+	width: 440px;
+	height: 30px;
+}
+
+.textarea1 {
+	width: 480px;
+	height: 245px;
+	box-sizing: border-box;
+}
+
+.buttom {
+	background-color: #00cc99;
+	color: white;
+	width: 70px;
+	height: 30px;
+	position: absolute;
+	right: 0
+}
+
+/*FOOTER*/
+.footer {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	padding:10px;
+}
+
+.footerword{
+	display:flex;
+	padding: 5px;
+}
+
+.wordpurple {
+	color: #e12d80
+	
+}
