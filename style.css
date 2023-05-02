@@ -136,7 +136,8 @@ table {
 
 /*TOP*/
 .wrap {
-	margin: 0 auto;/*置中呈現*/
+	margin: 0 auto;
+	/*置中呈現*/
 	width: 1002px;
 }
 
@@ -145,7 +146,8 @@ table {
 	padding: 5px;
 	text-decoration: none;
 }
-.topbtn{
+
+.topbtn {
 	display: flex;
 	justify-content: flex-end;
 }
@@ -164,16 +166,19 @@ table {
 	padding-left: 10px;
 	padding-right: 5px;
 }
+
 /*Header*/
-.header{
+.header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.headerbtn{
-		display: flex;
-		justify-content: flex-end;
+
+.headerbtn {
+	display: flex;
+	justify-content: flex-end;
 }
+
 .header a {
 	color: #99ebd6;
 	padding: 10px;
@@ -186,33 +191,27 @@ table {
 
 /*BANNER*/
 .banner {
+	width: inherit;
 	margin-bottom: 50px;
 	position: relative;
 }
 
 .bannerword {
 	background-color: #1f1e1c;
-	width: 500px;
+	width: inherit;
 	height: 160px;
+	background: rgba(0, 0, 0, 0.5);
 	position: absolute;
 	left: 0;
 	top: 70px;
 }
 
-.bannerp {
+.banner h2 {
 	color: white;
 	font-size: 30px;
 	position: absolute;
 	left: 0;
 	top: 50px;
-}
-
-.bannerp2 {
-	color: white;
-	font-size: 30px;
-	position: absolute;
-	left: 0;
-	top: 80px;
 }
 
 /*COURSE*/
@@ -228,14 +227,13 @@ table {
 .course {
 	display: flex;
 	justify-content: space-around;
-	width: 1024px;
 	margin-bottom: 10px;
 }
 
 .course h2 {
 	font-size: 25px;
 	font-style: bold;
-	padding:10px;
+	padding: 10px;
 }
 
 .course p {
@@ -243,10 +241,14 @@ table {
 	letter-spacing: 1px;
 	text-align: left;
 }
-.course h3, .courseul{
+
+.course h3,
+.courseul {
 	text-align: left;
-	padding-left:10px;
-	padding-top:10px;
+	letter-spacing: 1px;
+	padding-left: 10px;
+	padding-top: 10px;
+	list-style:disc;
 }
 
 /*LIST*/
@@ -283,7 +285,7 @@ table {
 	border-bottom: 1px solid darkgray;
 }
 
-.wordgreen{
+.wordgreen {
 	color: green;
 }
 
@@ -349,7 +351,8 @@ table {
 	width: 70px;
 	height: 30px;
 	position: absolute;
-	right: 0
+	right: 0;
+	margin-top: 10px;
 }
 
 /*FOOTER*/
@@ -357,15 +360,20 @@ table {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 30px;
-	padding:10px;
+	padding: 10px;
 }
 
-.footerword{
-	display:flex;
+.imgsize{
+	padding-top: 10px;
+	width: 200px;
+	height: 40px;
+}
+
+.footerword {
+	display: inline;
 	padding: 5px;
 }
 
 .wordpurple {
 	color: #e12d80
-	
 }
